@@ -23,8 +23,8 @@ app.add_middleware(
 )
 
 # 🔑 API KEYS
-GEMINI_API_KEY = "AIzaSyBgS2LerNjb4YSqTLc8IbZ-Ej9zTrGqMvA"
-OPENAI_API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjIwMDI1NjJAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.PaUFPPdwXM2ac3yvYdgAcdzjHGOCspnMb74HlX-vAEg"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Models
 gemini_model = "gemini-2.5-flash"
