@@ -1,0 +1,12 @@
+fastapi==0.104.1
+python-multipart
+uvicorn
+httpx
+google-genai
+matplotlib
+networkx
+scipy
+seaborn
+beautifulsoup4
+pandas
+duckdb
